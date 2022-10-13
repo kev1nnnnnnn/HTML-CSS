@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html , body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .div1 {
+            width: 150px;
+            height: 50px;
+            background-color: red;
+            transform: translate(50%, 50%);
+            
+        }
+        .div2 {
+            width: 150px;
+            height: 50px;
+            background-color: blue;
+            position: relative;
+            left: 50%   
+        }
+        .div3 {
+            width: 50%;
+            overflow: hidden;
+            border: solid 2px black;
+        }
+        .div3-interna {
+            background: yellow;
+            transform: translateX(80%,25px);
+            
+        }
+
+        .div4 {
+            width: 50%;
+            overflow: hidden;
+            border: solid 2px black;
+        }
+
+        .div4-interna {
+            background: yellow;
+            transform: rotate(-10deg)
+            
+        }
+
+        .div5 {
+            width: 50%;
+            overflow: hidden;
+            border: solid 2px black;
+        }
+
+        .div5-interna {
+            background: yellow;
+            transform: rotate(30deg);
+            transform-origin: left top;
+            
+        }
+        .div6 {
+            width: 50%;
+            overflow: hidden;
+            border: solid 2px black;
+        }
+
+        .div6-interna {
+            background: yellow;
+            transform: rotate(30deg) translate(30px);
+        }
+        .div7 {
+            width: 50%;
+            overflow: hidden;
+            border: solid 2px black;
+        }
+
+        .div7-interna {
+            background: yellow;
+            transform:translate(30px) rotate(30deg);  
+        }
+        .div8 {
+            width: 50%;
+            height: 100px;
+            background: orange;
+            transform:skew(-30deg, 50deg) ;
+        }
+
+        .div9 {
+            width: 100%;
+            height: 100px;
+            background: blue;
+            transform:scale(1) translateX(50%);
+            transition: transform .5s;
+        }
+        .div9:hover {
+            transform: scale(2);
+        }
+
+      
+    </style>
+</head>
+<body>
+
+    <div class="div1">div1</div>
+    <div class="div2">div2</div>
+    <hr>
+    <div class="div3">
+        <div class="div3-interna">Conteudo qualquer</div>
+        <p>É um fato estabelecido há muito tempo que um leitor se distrai com o conteúdo legível de uma página ao examinar seu layout. O objetivo de usar Lorem Ipsum é que ele tem uma distribuição de letras mais ou menos normal, em vez de usar 'Conteúdo aqui, conteúdo aqui', fazendo com que pareça um inglês legível. Muitos pacotes de editoração eletrônica e editores de páginas da Web agora usam Lorem Ipsum como texto padrão do modelo, e uma pesquisa por 'lorem ipsum' descobrirá muitos sites ainda na infância. Várias versões evoluíram ao longo dos anos, às vezes por acidente, às vezes de propósito (humor injetado e similares)
+        </p>
+    </div>
+    <hr>
+    <div class="div4">
+        <div class="div4-interna">Conteudo qualquer</div>
+        <p>É um fato estabelecido há muito tempo que um leitor se distrai com o conteúdo legível de uma página ao examinar seu layout. O objetivo de usar Lorem Ipsum é que ele tem uma distribuição de letras mais ou menos normal, em vez de usar 'Conteúdo aqui, conteúdo aqui', fazendo com que pareça um inglês legível. Muitos pacotes de editoração eletrônica e editores de páginas da Web agora usam Lorem Ipsum como texto padrão do modelo, e uma pesquisa por 'lorem ipsum' descobrirá muitos sites ainda na infância. Várias versões evoluíram ao longo dos anos, às vezes por acidente, às vezes de propósito (humor injetado e similares)
+        </p>
+    </div>
+
+    <hr>
+    <div class="div5">
+        <div class="div5-interna">Conteudo qualquer</div>
+        <p>É um fato estabelecido há muito tempo que um leitor se distrai com o conteúdo legível de uma página ao examinar seu layout. O objetivo de usar Lorem Ipsum é que ele tem uma distribuição de letras mais ou menos normal, em vez de usar 'Conteúdo aqui, conteúdo aqui', fazendo com que pareça um inglês legível. Muitos pacotes de editoração eletrônica e editores de páginas da Web agora usam Lorem Ipsum como texto padrão do modelo, e uma pesquisa por 'lorem ipsum' descobrirá muitos sites ainda na infância. Várias versões evoluíram ao longo dos anos, às vezes por acidente, às vezes de propósito (humor injetado e similares)
+        </p>
+    </div>
+
+    <hr>
+    <div class="div6">
+        <div class="div6-interna">Conteudo qualquer</div>
+        <p>É um fato estabelecido há muito tempo que um leitor se distrai com o conteúdo legível de uma página ao examinar seu layout. O objetivo de usar Lorem Ipsum é que ele tem uma distribuição de letras mais ou menos normal, em vez de usar 'Conteúdo aqui, conteúdo aqui', fazendo com que pareça um inglês legível. Muitos pacotes de editoração eletrônica e editores de páginas da Web agora usam Lorem Ipsum como texto padrão do modelo, e uma pesquisa por 'lorem ipsum' descobrirá muitos sites ainda na infância. Várias versões evoluíram ao longo dos anos, às vezes por acidente, às vezes de propósito (humor injetado e similares)
+        </p>
+    </div>
+
+    <hr>
+    <div class="div7">
+        <div class="div7-interna">Conteudo qualquer</div>
+        <p>É um fato estabelecido há muito tempo que um leitor se distrai com o conteúdo legível de uma página ao examinar seu layout. O objetivo de usar Lorem Ipsum é que ele tem uma distribuição de letras mais ou menos normal, em vez de usar 'Conteúdo aqui, conteúdo aqui', fazendo com que pareça um inglês legível. Muitos pacotes de editoração eletrônica e editores de páginas da Web agora usam Lorem Ipsum como texto padrão do modelo, e uma pesquisa por 'lorem ipsum' descobrirá muitos sites ainda na infância. Várias versões evoluíram ao longo dos anos, às vezes por acidente, às vezes de propósito (humor injetado e similares)
+        </p>
+    </div>
+
+    <hr>
+    <div class="div8">
+        <div class="div8-interna">Conteudo qualquer</div>
+        <p>É um fato estabelecido há muito tempo que um leitor se distrai com o conteúdo legível de uma página ao examinar seu layout. O objetivo de usar Lorem Ipsum é que ele tem uma distribuição de letras mais ou menos normal, em vez de usar 'Conteúdo aqui, conteúdo aqui', fazendo com que pareça um inglês legível. Muitos pacotes de editoração eletrônica e editores de páginas da Web agora usam Lorem Ipsum como texto padrão do modelo, e uma pesquisa por 'lorem ipsum' descobrirá muitos sites ainda na infância. Várias versões evoluíram ao longo dos anos, às vezes por acidente, às vezes de propósito (humor injetado e similares)
+        </p>
+    </div>
+
+    <hr>
+    <div class="div9">
+        <div class="div9-interna">Conteudo qualquer</div>
+        <p>É um fato estabelecido há muito tempo que um leitor se distrai com o conteúdo legível de uma página ao examinar seu layout. O objetivo de usar Lorem Ipsum é que ele tem uma distribuição de letras mais ou menos normal, em vez de usar 'Conteúdo aqui, conteúdo aqui', fazendo com que pareça um inglês legível. Muitos pacotes de editoração eletrônica e editores de páginas da Web agora usam Lorem Ipsum como texto padrão do modelo, e uma pesquisa por 'lorem ipsum' descobrirá muitos sites ainda na infância. Várias versões evoluíram ao longo dos anos, às vezes por acidente, às vezes de propósito (humor injetado e similares)
+        </p>
+    </div>
+    
+    
+</body>
+</html>

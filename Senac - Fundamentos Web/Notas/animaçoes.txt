@@ -1,0 +1,14 @@
+	ANIMAÇÕES
+Transition-property
+Transition-duration
+Transition-delay
+Transition-timing-function
+-------
+Animation-name
+Animation-duration
+Animation-delay
+Animation-timing-function
+Animation-iteration-count
+Animation-direction
+Animation-fill-mode
+Animation-play-state

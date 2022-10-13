@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br"><!--MUDAR A LINGUAGEM PARA PT-BR-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=+, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro</title>
+</head>
+<body>
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+    <header><!--CABEÇALHO--> 
+    <center><h1>Cadastro de Clientes</h1></center>
+    <nav> <p> <a href="index.html">Home</a> | <a href="servicos.html">Serviços</a> | <a href="mapadosite.html">Mapa do site</a> | <a href="cadastro.html">Cadastro</a> </p> </nav>
+     <hr> <br> <br><!--hr= INSERIR LINHA HORIZONTAL/ br= PULAR LINHAS-->
+    </header>
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+    <section><!--CONTEÚDO PRINCIPAL-->
+        <form action="processa.php" method="POST"> <!--FORMULÁRIO-->
+        <!--Criando campos de texto, email e senha-->
+        <div>Nome: <input type="text" placeholder="Digite seu nome completo" required> </div> <br>
+        <div>E-mail: <input type="text" placeholder="Digite o seu E-mail" required> </div> <br>
+        <div>Senha: <input type="password" placeholder="Digite sua Senha" required> </div> <br>
+
+        <!--CRIANDO BOTÕES DE OPÇÃO-RADIO-->
+        <p>Sexo: </p>
+        <div>
+            <input type="radio" name="sexo" value="1"> Masculino <br>
+            <input type="radio" name="sexo" value="2"> Feminino <br>
+            <input type="radio" name="sexo" value="3"> Outro
+        </div> <br>
+
+        <!--CAIXA DE VERIFICAÇÃO - CHECKBOX-->
+        <p>Áreas de interesse:</p>
+        <div>
+            <input type="checkbox" name="int" value="a"> TECNOLOGIA <br>
+            <input type="checkbox" name="int" value="b"> SAÚDE <br>
+            <input type="checkbox" name="int" value="c"> GASTRONOMIA <br>
+            <input type="checkbox" name="int" value="d"> ESPORTE <br>
+            <input type="checkbox" name="int" value="e"> TEOLOGIA <br>
+            <input type="checkbox" name="int" value="f"> FÍSICA <br>
+        </div>
+
+        <!--CRIANDO LISTA DE SELEÇÃO - SELECT -->
+        <p> Estado Civil:</p>
+        <div>
+            <select name="estadocivil">
+                <option value="">Selecione</option>
+                <option value="casado">Casado</option>
+                <option value="solteiro">Solteiro</option>
+                <option value="divorciado">Divorciado</option>
+            </select>
+        </div> <br>
+
+        <div>
+                Data de nascimento:
+                <input type="date" name="nascimento">
+            </div>
+
+        <!--CRIANDO UM CAMPO COM VÁRIAS LINHAS - TEXTAREA-->
+        <p> Deixe seu comentário</p>
+        <div>
+            <!--cols=colunos/ rows=linhas-->
+            <Textarea name="comentario" cols="100" rows="10">
+
+            </Textarea>
+        </div><br><br>
+
+        
+
+        <div>
+            <button type="submit" onclick="alert('Tem certeza?')">Cadastrar</button>
+        </div>
+
+
+        </form>
+    </section>
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+    <footer><!--RODAPÉ-->
+    </footer>
+
+</body>
+</html>

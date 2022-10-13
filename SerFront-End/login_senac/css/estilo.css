@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.form-login {
+    width: 350px;
+    margin: 80px auto 0;
+}
+#user, #pass, .btn {
+    display: block;
+    width: 100%;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 18px;
+    
+}
+#user:focus, #pass:focus, .btn:focus {
+    background: white;
+}
+.form-login fieldset {
+   border: 1px solid #A020F0;
+
+   
+}
+.form-login legend {
+    color:#9400D3; 
+    display: block;
+    margin: auto;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+}
+.form-login label {
+    margin-top: 15px;
+    display: block;
+    margin-bottom: 5px;
+    color:#9400D3 ;
+    font-size: 17px;
+}
+.btn {
+    margin-top: 20px; 
+    background: #9400D3;
+    color: white;
+}
+.btn:hover {
+    background:  #A020F0;
+    color: white;
+    border: 1px solid #9400D3;
+    transition: .5s;
+}
+.form-login input {
+    border: 1px solid #9400D3;
+}
+
+footer {
+    padding: 30px;
+    background: #9400D3;
+    margin: 170px 2px 0 2px;
+}
+footer p {
+    color: white;
+    text-align: center;
+}
+
+section h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.5em;
+    color: #9400d3;
+    margin: 10px auto;
+   
+}

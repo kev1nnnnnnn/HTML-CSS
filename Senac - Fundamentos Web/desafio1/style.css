@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: blanchedalmond;
+}
+
+header, div, select {
+    font-size: 16px;
+    color: #066a75;
+    max-width:500px;
+    max-height:400px;
+    margin: 0 auto;
+    padding: 0 10px;;
+    
+}
+
+h1 {
+    font-size: 50px;
+    color: #066a75;
+    padding: 2px 0 10px 0;
+    font-family: Arial;
+    font-weight: bold;
+    text-align:center;
+}
+
+
+input, div{
+    width: 400px;
+    padding: 10;
+    margin-top: auto;
+}
+h1 {
+    width: 200px;
+    padding: 10;
+    margin-top: auto;
+}
+select {
+    font-size: 16px;
+    max-width:500px;
+    max-height:600px;
+    margin: 0 auto;
+    padding: 0 10px;
+
+}
+
+    
+

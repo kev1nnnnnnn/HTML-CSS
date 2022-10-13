@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .destaque {
+            color: red;
+
+        }
+        #unico {
+            color: blue;
+        }
+        p [lang] {
+            color: black;
+        }  
+        p {
+            /*Sobrescreve as demais regras do css */
+            margin: 10px auto;
+            line-height: 1.5em;
+            font-family: sans-serif;
+        }
+        .jumbotron {
+            background: rgba(0,0,0,.5);
+        }
+        .jumbotron__text {
+            color: white;
+            text-align: center;
+        }
+        .jumbotron__title {
+            color: red;
+            background: chartreuse;
+            padding: 18px;
+            text-align: center;
+        }
+        p {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu CSS nao funciona</h1>
+
+    <div class="jumbotron">
+        <h2 class="jumbotron__title">Subtitulo</h2>
+        <p class="jumbotron__text">paragrafos</p>
+        <p class="jumbotron__text">paragrafos</p>
+    </div>
+
+    <p style="color: yellow;">Com estilo inline</p>
+
+    <p lang="pt-br" class="destaque">Testando Atributo</p>
+    <p class="destaque">
+    Lorem Ipsum é simplesmente um texto fictício da 
+    indústria tipográfica e de impressão. Lorem Ipsum
+    é o texto fictício padrão do setor desde os anos
+    1500, quando uma impressora desconhecida pegou 
+    uma galera do tipo e a mexeu para fazer um livro 
+    de espécimes. Ele sobreviveu não apenas cinco séculos
+     mas também o salto para a composição eletrônica,
+    permanecendo essencialmente inalterado.  
+    </p>
+
+    <p class="destaque" id="unico">
+        Lorem Ipsum é simplesmente um texto fictício da 
+        indústria tipográfica e de impressão. Lorem Ipsum
+        é o texto fictício padrão do setor desde os anos
+        1500, quando uma impressora desconhecida pegou 
+        uma galera do tipo e a mexeu para fazer um livro 
+        de espécimes. Ele sobreviveu não apenas cinco séculos
+         mas também o salto para a composição eletrônica,
+        permanecendo essencialmente inalterado.  
+        </p>
+
+        <p class="destaque">
+            Lorem Ipsum é simplesmente um texto fictício da 
+            indústria tipográfica e de impressão. Lorem Ipsum
+            é o texto fictício padrão do setor desde os anos
+            1500, quando uma impressora desconhecida pegou 
+            uma galera do tipo e a mexeu para fazer um livro 
+            de espécimes. Ele sobreviveu não apenas cinco séculos
+             mas também o salto para a composição eletrônica,
+            permanecendo essencialmente inalterado.  
+            </p>
+</body>
+</html>

@@ -1,0 +1,14 @@
+body{
+    background: burlywood;
+}
+h1 {
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+ul {
+    text-emphasis-position:auto;
+    background: white;
+}

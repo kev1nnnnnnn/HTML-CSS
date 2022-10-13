@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>fichacadastral</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+       <center><h1>Ficha Cadastral</h1></center>
+        <hr>
+    </header>
+        <section>
+         <form action="processa.php" method="POST">
+            <div>Nome: <input type="text"required></div> <br>
+            <div>RG: <input type="number"required></div> <br>
+            <div>CPF: <input type="number"required></div><br>
+            <div>Endereço:<input type="text"required> </div><br>
+    
+
+            <p>Sexo:</p>
+            <div>
+                <input type="radio" name="sexo" value="1">Masculino <br>
+                <input type="radio" name="sexo" value="2">Femininoo <br>
+                <input type="radio" name="sexo" value="3">Outros <br>
+            </div>
+            <div>
+            <p>Data de Nascimento:</p>
+            <input type="date" name="nascimento">    
+            </div>    
+            
+            <p>Estado Civil:</p>
+            <div>
+                <select name="estadocivil">
+                    <option value="">Selecione</option>
+                    <option value="casado">Casado(a)</option>
+                    <option value="solteiro">Solteiro(a)</option>
+                    <option value="divorciado">Divorciado(a)</option>
+            </div>
+
+            <div>
+                <button type="submit" onclick="alert ('Tem certeza?')">Cadastrar</button>
+            </div>
+
+        </form>
+    </section>
+
+    
+</body>
+</html>

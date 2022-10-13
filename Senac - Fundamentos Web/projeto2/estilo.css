@@ -1,0 +1,446 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #F8F8FF;
+    margin: 0;
+    color: #666;
+    line-height: 1.7;
+}
+/*MENU DO SITE*/
+.hero {
+background-image: url(img/capa.png);
+height: 500px;
+background-position: right center;
+background-size:contain;
+border-top: 1px solid #ffffff;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+
+.hero-content {
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+.hero-content h1 {
+    text-transform: uppercase;
+    font-size: 46;
+    text-shadow: 3px 3px 2px #333;
+}
+.hero-content p {
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 3px solid white;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.hero nav ul {
+    text-align: center;
+    margin: 20px 50px 0 0;
+}
+.hero nav li {
+    display: inline-block;
+    list-style: none;
+    border: 1px solid white;
+    margin-left: 10px;
+}
+.hero nav a {
+    background: rgba(0,0, 0, 0.2);
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+
+.hero nav a:hover {
+    color: blue;
+    transition: .4s;
+}
+/*FIM DO MENU */
+
+/*RODAPE FOOTER*/
+.rodape {
+    height: 50px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    background: #666;
+    padding: 35px;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+s {
+    color: red;
+}
+/*FIM DO RODAPE*/
+
+/*AJEITANDO AS IMAGENS */
+#imagem-mk {
+    width: 300px;
+    height: 200px;
+}
+#imagem-fifa {
+    width: 300px;
+    height: 200px;
+}
+
+#imagem-dmc {
+    width: 300px;
+    height: 200px;
+}
+#imagem-fc {
+    width: 300px;
+    height: 200px;
+}
+
+#imagem-sf {
+    width: 300px;
+    height: 200px;
+}
+#imagem-mc {
+    width: 300px;
+    height: 200px;
+}
+
+#imagem-nfs {
+    width: 300px;
+    height: 200px;
+}
+
+#imagem-thelast {
+    width: 300px;
+    height: 200px;
+}
+
+#imagem-flatout {
+    width: 300px;
+    height: 200px;
+}
+
+#imagem-sonic {
+    width: 300px;
+    height: 200px;
+}
+#cio {
+    width: 300px;
+    height: 200px;
+}
+#ceo {
+    width: 300px;
+    height: 200px;
+}
+#imagem-ps4 {
+    width: 300px;
+    height: 200px;
+}
+#imagem-xbox {
+    width: 300px;
+    height: 200px;
+}
+#imagem-void {
+    width: 250px;
+    height: 200px;
+}
+/*CONTEUDO PRINCIPAL DA INDEX */
+
+.div-videogame {
+    
+    float: left;
+    padding: 10px 20px; 
+    margin-left: 4%;
+    margin-top: 2%;
+    box-shadow: 5px 5px 5px white;
+}
+.div-videogame p {
+    margin: auto;
+    color: white;
+    text-transform: uppercase;
+    line-height: 3px;
+    text-align: center;
+}
+
+a {
+    
+    text-decoration: none;
+    border-bottom:double;
+    color:#49bf9d ;
+}
+.row 
+ {
+     overflow: auto;
+     width: 80%;
+     border: 2px solid #333;
+     border-radius: 10px;
+     box-shadow: 5px 5px 5px #333,20px 5px 5px #49bf9d;
+     background: #F0F8FF;
+     box-sizing: border-box;
+     display: inline-block;
+     margin-left: 10%
+ }
+
+ img {
+     display: inline-block;
+     margin-bottom: 2%;
+     border-radius: 50px;
+ }
+ .col-2 {
+     width: 45.5%;
+     float: left;
+     box-sizing: border-box;
+     padding: 100px 100px;
+
+ }
+
+ .col-2:first-child {
+     margin-right:1.5%;
+ }
+ .col-2:last-child {
+     margin-left: 1.5%;
+ }
+
+ .imagem-link {
+   
+    border-color:#333;
+    
+ }
+
+ .recent-work-card img {
+    border-radius: 10px;
+ }
+ 
+ .nome-title {
+     float:auto;
+     text-transform: uppercase;
+ }
+ .aside {
+     width: 10%;
+     padding: 40px;
+     margin: 0 74% 1% ;
+     border: 2px solid #333;
+     position: absolute;
+     background: #F0F8FF;
+     border-radius: 15px;
+ }
+
+ .aside h3 {    
+    color: #333;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 2px 2px #666, 5px 5px 5px 5px #49bf9d;
+    text-align: center;
+ }
+ .aside p {
+     text-align: center;
+ }
+ .aside2 {
+    width: 10%;
+    padding: 40px;
+    margin: 20.8% 74% 1% ;
+    border: 2px solid #333;
+    position: absolute;
+    background: black;
+    border-radius: 15px;
+}
+
+.aside2 h3 {    
+   color: white;
+   text-transform: uppercase;
+   box-shadow: 2px 2px 2px 2px white, 5px 5px 5px 5px white;
+   text-align: center;
+}
+.aside2 p {
+    text-align: center;
+    color: white;
+}
+
+.aside3 {
+    width: 15%;
+    padding: 20px;
+    height: 70%;
+    margin: 0% -8% 1% ;
+    border: 2px solid #333;
+    position: absolute;
+    background: black;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.aside3 h3 {    
+   color: white;
+   text-transform: uppercase;
+   box-shadow: 2px 2px 2px 2px white, 5px 5px 5px 5px white;
+   text-align: center;
+}
+.aside3 p {
+    text-align: center;
+    color: white;
+    text-align: center;
+}
+.aside3 img {
+    padding-top: 20%;
+}
+ 
+ /*FIM DO CONTEUDO PRINCIPAL */
+
+ /*INICIO DA PÁGINA JOGOS! */
+
+ .h1 {
+    text-align: center;
+    box-shadow:5px 5px 5px 10px #49bf9d;
+    margin: 40px 10%;
+    margin-bottom: 40px;
+    padding: 75px;
+    font-size: 40px;
+   background: black;
+   color: white;
+   text-transform: uppercase;
+   border-radius: 15px;
+ }
+ .h1 p {
+    text-shadow: 2px 2px 2px#333;
+    display: block;
+    box-sizing: border-box;
+    color: white;
+    text-transform: uppercase;
+ }
+ #btn {
+    background-color: white;
+    border: 2px solid #333;
+    color:#333;
+    padding: .75em 1.5em;
+    border-radius: 5px;
+    font-size: .8em;
+    display: inline-block;
+    width: auto;
+    transition: all .5s;
+    cursor: pointer;
+    margin-bottom: 10px;
+ }
+ #btn:hover {
+     color: white;
+     border-color: #666;
+     background: #666;
+     transition: .4s;
+ }
+.div-anime {
+    text-align: center;
+}
+
+
+ /*PAGINA CADASTRO*/
+.form-login {
+    width: 40%;
+    margin: 100px auto 0;    
+}
+
+#user, #pass, .btn {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+}
+
+#user:focus, #pass:focus, .btn:focus {
+    background: white;
+}
+
+.form-login fieldset {
+    
+    color: white;
+    border: 2px solid #49bf9d;
+    box-shadow: 5px 5px 5px whitesmoke;
+    text-transform: uppercase;
+    background-image: url(img/fundo.jpg);
+}
+.form-login legend {
+    color: white;
+    background: #49bf9d;
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+.form-login label {
+    margin-top: 15px;
+    display: block;
+    margin-bottom: 5px;
+
+}
+.form-login input {
+    border:2px solid #49bf9d;
+}
+
+.btn {
+    margin: 20px 30%;
+    border-radius: 25px;
+    width: 30%;
+    background: #49bf9d;
+    color: white;
+    border: 2px solid #49bf9d;
+}
+
+.btn:hover {
+    color: #49bf9d;
+    background: whitesmoke;
+    transition:  .4s;
+}
+
+#user {
+    margin-bottom: 15px;
+}
+
+.caixa {
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+select {
+    background: #49bf9d;
+    width: 100px;
+    height: 30px;
+    border: 2px solid #49bf9d;
+    color: white;
+}
+
+/*SOBRE */
+
+.criadores {
+    float: left;
+}
+
+.row-sobre {
+    overflow: auto;
+     margin-left: 50px;
+     padding: 60px 38%;
+     border: 2px solid #333;
+     border-radius: 10px;
+     box-shadow: 4px 4px 3px #333;
+     background: #333;
+     color: white;
+}
+
+.col-3 {
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+.col-3 p {
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.div-h3-sobre {
+    margin: 5% 30%;
+    text-align: justify;
+}
+

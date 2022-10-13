@@ -1,0 +1,8 @@
+			Semântica
+cite - fazer uam referência algum conteudo na pagina
+blockquote - citação
+address - conter informações de contato sobre dono do site caso esteja dentro de uma tag article
+code - código
+figure e figcatpion - criar um conteúdo que pode ser removido do conteúdo principal sem grandes problemas
+
+--------------------------------------------------

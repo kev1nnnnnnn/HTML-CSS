@@ -1,0 +1,43 @@
+create database cadastro
+default character set utf8
+default collate utf8_general_ci;
+
+create table if not exists clientes 
+(
+	id int not null auto_increment,
+    nome varchar (30) not null,
+    nascimento date,
+    sexo enum ('F' , 'M'),
+    peso decimal(5,2),
+    altura decimal(3,2),
+    nacionalidade varchar(20) default 'Brasil',
+    primary key (id)
+) default charset = utf8;
+
+insert into clientes values 
+(default, 'Claudio Bravo', '1996-05-02', 'M', '80.00', '1.70', default),
+(default, 'Mauricio Souza', '1992-06-03', 'M', '85.00', '2.15', default),
+(default, 'Vitor Sergio', '1995-02-13', 'M', '86.00', '1.60', default),
+(default, 'Ana Nascimento', '1992-04-07', 'F', '75.00', '1.90', default),
+(default, 'Felipe Alvez', '1993-04-25', 'M', '73.00', '1.60', default),
+(default, 'Beatriz Souza', '1994-06-07', 'F', '85.00', '2.15', default),
+(default, 'Vitoria Lima', '1992-12-08', 'F', '72.00', '2.0', 'Portugal'),
+(default, 'Wilian Dias', '1991-03-29', 'M', '90.00', '1.80', 'Estados Unidos');
+
+alter table clientes add column profissao varchar (10);
+
+desc clientes;
+
+select nome, nascimento, nacionalidade from clientes;
+
+select * from clientes;
+
+alter table clientes add column profissao varchar (10) after nome;
+
+alter table clientes drop column profissao;
+
+alter table clientes modify column profissao varchar(30);
+
+alter table clientes modify column profissao varchar (30) not null default '';
+
+alter table clientes change column profissao prof varchar (30) not null default '';
